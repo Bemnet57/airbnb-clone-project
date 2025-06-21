@@ -34,3 +34,46 @@ This is a backend clone of the Airbnb web application. The goal of the project i
 - DevOps Engineer: Handles deployment, monitoring, and scaling of the backend services.
 - QA Engineer: Ensures the backend functionalities are thoroughly tested and meet quality standards.
 - Test automation Engineer: designs a test automation ecosystem, writes and maintains test scripts for automated testing.
+
+## Database Design
+
+### Key Entities and Fields
+
+1. User : Represents people who use the platform (guests and hosts)
+   - id
+   - email
+   - password
+   - first_name
+   - last_name
+   - created_at
+   - updated_at
+2. Properties : Represents a listed property or space
+   - id
+   - user_id
+   - created_at
+3. City:
+   - id
+   - state_id
+   - name
+4. State:
+   - id
+   - name
+5. Amenity: Represents a facility or service (e.g., Wi-Fi, TV)
+   - id
+   - name 
+6. Review: Represents feedback from users about a place
+   - id
+   - user_id
+   - palce_id
+   - text
+   - created_at
+
+### Entity relationships
+
+- A User can own multiple Places.
+- A Place belongs to one City, and a City belongs to a State.
+- A Place can have many Amenities (many-to-many).
+- A User can write many Reviews on Places.
+- A Place can have many Reviews.
+
+
