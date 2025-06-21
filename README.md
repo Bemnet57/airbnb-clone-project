@@ -101,7 +101,7 @@ This is a backend clone of the Airbnb web application. The goal of the project i
    - Update property information
    - Delete inactive or invalid listings
 
-4. 📅 Booking System
+4.  Booking System
 - Endpoints:
    - GET/POST /bookings/ – View or create a new booking
    - GET/PUT/DELETE /bookings/{booking_id}/ – Manage individual bookings
@@ -110,7 +110,7 @@ This is a backend clone of the Airbnb web application. The goal of the project i
    - Update or cancel bookings
    - Manage check-in/check-out details
 
-5. 💳 Payment Processing
+5. Payment Processing
 - Endpoints:
    - POST /payments/ – Process a new payment transaction
 - Features:
