@@ -76,4 +76,57 @@ This is a backend clone of the Airbnb web application. The goal of the project i
 - A User can write many Reviews on Places.
 - A Place can have many Reviews.
 
+## Feature breakdown
+
+1. API Documentation
+- OpenAPI Standard: All backend APIs are documented using the OpenAPI (Swagger) standard for clarity, consistency, and ease of client-side integration.
+- Django REST Framework (DRF): A powerful and flexible toolkit for building Web APIs, used to provide RESTful endpoints for user and property data.
+- GraphQL Support: Enables efficient, flexible data querying with reduced over-fetching compared to REST.
+
+2.  User Authentication
+- Endpoints:
+   - POST /users/ – Register new users
+   - GET/PUT/DELETE /users/{user_id}/ – Retrieve, update, or delete user profiles
+- Features:
+   - User registration and login
+   - Token-based authentication
+   - Profile management
+
+3. Property Management
+- Endpoints:
+   - GET/POST /properties/ – List or create new property listings
+   - GET/PUT/DELETE /properties/{property_id}/ – Retrieve, update, or delete a specific property
+- Features:
+   - Add new property listings
+   - Update property information
+   - Delete inactive or invalid listings
+
+4. 📅 Booking System
+- Endpoints:
+   - GET/POST /bookings/ – View or create a new booking
+   - GET/PUT/DELETE /bookings/{booking_id}/ – Manage individual bookings
+- Features:
+   - Book a property for specific dates
+   - Update or cancel bookings
+   - Manage check-in/check-out details
+
+5. 💳 Payment Processing
+- Endpoints:
+   - POST /payments/ – Process a new payment transaction
+- Features:
+   - Handle secure payments for bookings
+   - Integrate with payment gateways (e.g., Stripe or PayPal)
+
+6. Review System
+- Endpoints:
+   - GET/POST /reviews/ – Submit or view reviews
+   - GET/PUT/DELETE /reviews/{review_id}/ – Manage specific reviews
+- Features:
+   - Users can leave reviews for properties
+   - Edit or delete past reviews
+   - Ensure authenticity and transparency
+
+ 7. Database Optimizations
+- Indexing: Strategic indexes applied to frequently queried fields (e.g., user ID, property location) to enhance database read speed.
+- Caching: Use of caching layers (e.g., Redis) to store frequently accessed data and reduce database load, improving overall performance and response time.
 
