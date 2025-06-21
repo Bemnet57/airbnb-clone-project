@@ -76,7 +76,7 @@ This is a backend clone of the Airbnb web application. The goal of the project i
 - A User can write many Reviews on Places.
 - A Place can have many Reviews.
 
-## Feature breakdown
+## Feature Breakdown
 
 1. API Documentation
 - OpenAPI Standard: All backend APIs are documented using the OpenAPI (Swagger) standard for clarity, consistency, and ease of client-side integration.
