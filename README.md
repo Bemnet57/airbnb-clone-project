@@ -130,7 +130,7 @@ This is a backend clone of the Airbnb web application. The goal of the project i
 - Indexing: Strategic indexes applied to frequently queried fields (e.g., user ID, property location) to enhance database read speed.
 - Caching: Use of caching layers (e.g., Redis) to store frequently accessed data and reduce database load, improving overall performance and response time.
 
-## API Seccurity Overview
+## API Security 
 
 - Authentication & Authorization: Prevents unauthorized access to user data, bookings, and payment operations.
 - HTTPS Enforcement: Protects data in transit by encrypting API requests/responses and preventing man-in-the-middle (MITM) attacks.
