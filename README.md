@@ -27,18 +27,10 @@ Redis: Used for caching and session management.
 Docker: Containerization tool for consistent development and deployment environments.
 CI/CD Pipelines: Automated pipelines for testing and deploying code changes.
 
-- User authentication (Sign up / Log in)
-- Create, Read, Update, Delete (CRUD) operations for:
-  - Users
-  - Places
-  - Reviews
-  - Amenities
-  - Cities
-  - States
-- JSON and file storage engines
-- RESTful API endpoints
-- Dynamic filtering and search
-- Database integration (MySQL)
-- Unit and integration tests
+## Team Roles
 
-
+Backend Developer: Responsible for implementing API endpoints, database schemas, and business logic.
+Database Administrator: Manages database design, indexing, and optimizations.
+DevOps Engineer: Handles deployment, monitoring, and scaling of the backend services.
+QA Engineer: Ensures the backend functionalities are thoroughly tested and meet quality standards.
+Test automation Engineer: designs a test automation ecosystem, writes and maintains test scripts for automated testing.
