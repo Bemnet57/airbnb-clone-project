@@ -130,3 +130,32 @@ This is a backend clone of the Airbnb web application. The goal of the project i
 - Indexing: Strategic indexes applied to frequently queried fields (e.g., user ID, property location) to enhance database read speed.
 - Caching: Use of caching layers (e.g., Redis) to store frequently accessed data and reduce database load, improving overall performance and response time.
 
+## API Seccurity Overview
+
+- Authentication & Authorization: Prevents unauthorized access to user data, bookings, and payment operations.
+- HTTPS Enforcement: Protects data in transit by encrypting API requests/responses and preventing man-in-the-middle (MITM) attacks.
+- Input Validation & Sanitization: ensures data integrity.
+- Secure Password Handling: Prevents exposure of plaintext passwords in case of a database breach.
+- Rate Limiting & Throttling: Protects the API from brute-force attacks, and denial-of-service (DoS) attempts.
+- Role-Based Access Control (RBAC): Ensures that only authorized users can perform sensitive operations.
+
+## CI/CD Pipeline
+
+CI/CD stands for Continuous Integration and Continuous Deployment/Delivery. It is a DevOps practice that automates the process of:
+- Integrating code changes from multiple contributors
+- Testing the application to catch bugs early
+- Deploying updates to production or staging environments reliably and quickly
+
+### Why CI/CD is important for this project?
+- Faster Development: Automates repetitive tasks i.e. testing and building so developers can focus on writing features.
+- Early Bug Detection: Automated tests run on every push to catch bugs before reaching production.
+- Code Quality Assurance: Enforces code formatting and style checks across the team.
+- Safe Deployments: Reduces error in deployment by automating deployment steps.
+- Scalability:	Enables the project to grow without sacrificing reliability, which is essential for our project.
+- Team Collaboration: Makes team development easier by integrating and validating everyone’s code frequently during development.
+
+
+
+
+
+
